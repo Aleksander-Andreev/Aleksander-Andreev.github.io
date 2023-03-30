@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {height: auto;}
+    </style>
+</head>
+<body>
+    <h3>Картинка jpg</h3>
+    <img src="/UNIT-5/images/6Pr8Eimgd4A.jpg">
+    <h3>Картинка gif</h3>
+    <img src="/UNIT-5/images/funny-cats.gif">
+    <h3>Картинка png</h3>
+    <img src="/UNIT-5/images/mask.png">
+    <h3>Картинка svg</h3>
+    <img src="/UNIT-5/images/ru_flag_icon_251564.svg">
+    <h3>Картинка webp</h3>
+    <img src="/UNIT-5/images/горы.sm.webp">
+    <br><br>
+    <h3>Адаптивная картинка</h3>
+    <picture>
+        <source media="(min-width: 600px) and (max-width: 1200px)"
+                srcset="images/mask-med.png">   
+        <source media="(min-width: 1201px)"
+                srcset="images/mask.jpg">   
+        <img src="images/mask-sm.jpg" 
+             alt="ююю">
+     </picture>
+</body>
+</html>
