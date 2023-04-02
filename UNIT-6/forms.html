@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Формы</title>
+    <style>
+        form {
+            padding: 50px;
+            
+        }
+    </style>
+</head>
+<body>
+    <form action="http://127.0.0.1:5500/UNIT-6/forms.html" type="get">
+      <fieldset>  
+        <legend>Legendarno</legend>
+        <label for="user">Логин</label>
+        <input id="user" type="text" name="login" placeholder="Введите логин">
+        <br><br>
+        <label for="userpass">Пароль</label>
+        <input id="userpass" type="password" name="password" placeholder="Введите пароль">
+        <br><br>
+        <label for="userEmail">Email</label>
+        <input id="userEmail" type="Email" name="Email" placeholder="Введите Email">
+        <br><br>
+        <label for="userphone">Телефон</label>
+        <input id="userphone" type="tel" name="phone" placeholder="Введите телефон">
+    </fieldset> 
+        <labeL>
+            <p>Хотите пятерку?</p>
+            <input type="radio" name="rating" value="да">да
+            <input type="radio" name="rating" value="нет">нет
+            <input type="radio" name="rating" value="не знаю">не знаю
+        </labeL>
+
+        <label>
+            <p>Напищите сюда свой отзыв</p>
+            <textarea placeholder="отзыв"></textarea>
+        </label>
+
+        <label>
+            <p>Выберите свой любимый цвет</p>
+            <select name="color">
+                <option value="red">красный</option>
+                <option value="orange">оранжевый</option>
+                <option value="yellow">желтый</option>
+                <option value="green">зеленый</option>
+                <option value="azure">голубой</option>
+                <option value="blue">синий</option>
+                <option value="violet">фиолетовый</option>
+            </select>
+        </label>
+        <br><br>
+
+        <input type="submit" value="Отправить">
+        <button type="reset">Сброс</button>
+    </form>
+</body>
+</html>
