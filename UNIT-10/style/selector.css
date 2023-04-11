@@ -1,0 +1,40 @@
+*{
+    color: rgb(228, 26, 26);
+}
+.selector {
+    color: darkblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+.nav {
+    background-color: bisque;
+    color: aqua;
+}
+#first {
+    color: darkviolet;
+}
+[type="text"] {
+    color: rgb(238, 25, 25);
+    font-size: large;
+}
+div span {
+    color: goldenrod;
+}
+div>input {
+    background-color: darkolivegreen;
+      }
+.selector + .selector {
+    background-color: aqua;
+}
+.selector:first-child{
+    background-color: cornflowerblue;
+}
+.selector:last-child{
+    background-color: rgb(218, 37, 163);
+}
+.selector:nth-child(2){
+    background-color: darkgreen;
+}
+.advert ~ .child {
+    background-color: darkorange;
+    font-size: 50px;
+}

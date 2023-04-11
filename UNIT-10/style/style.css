@@ -1,0 +1,20 @@
+h1 {
+    color: green !important;
+    font-size: 50px;
+}
+body {
+    font-weight: bolder;
+    font-size: 26px;
+    font-style: italic;
+    color: brown;
+}
+a{
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    background-color: cyan;
+}
+span{
+    color: chartreuse;
+    font-weight: bolder;
+}
