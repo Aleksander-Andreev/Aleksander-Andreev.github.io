@@ -1,0 +1,24 @@
+.top {
+    margin-left: 100px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+h1 {
+    color: blue;
+}
+h2 {
+    color: red;
+}
+.main__defin {
+    margin-left: 80px;
+    font-size: large;
+    color: darkgreen;
+}
+.main__content {
+    margin: 30px;
+    width: 400px;
+    height: 150px;
+    background-color: darkolivegreen;
+    padding: 50px;
+    border: 5px;
+}
