@@ -1,0 +1,66 @@
+h1 {
+    font-size: 3rem;
+    color: rgb(115, 238, 0);
+    margin-left: 50px;
+}
+main {
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.pelement::first-line {
+    color: chocolate;
+}
+.pclass::first-letter {
+   font-size: 3rem; 
+   font-weight: 900;
+   color: green;
+}
+.pelement::before{
+    content: open-quote;
+    margin: 10px;
+    color: rgb(4, 8, 252);
+}
+.pelement::after{
+    content: close-quote;
+    color: rgb(4, 8, 252);
+}
+/*.pclass::after {
+    content: '';
+    display: inline-block;
+    position: relative;
+    width: 10px;
+    height: 10px;
+    border-radius: 999px;
+    color: darkviolet;
+
+}*/
+ul li:first-child {
+    color: red;
+    margin-left: 30px;
+}
+.elements li:last-child {
+    color: blue;
+    font-size: large;
+}
+.elements li::marker {
+    color: maroon;
+    font-size: 2rem;
+}
+.pclass:hover::first-line {
+    background-color: aquamarine;
+}
+input {
+    width: 220px;
+    height: 50px;
+    margin-left: 30px;
+}
+input::placeholder {
+    color: blue;
+    font-size: large;
+}
+.pclass a:active {
+    color: red;
+}
+[type="checkbox"]:checked+span {
+    color: red;
+}
