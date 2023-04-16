@@ -24,16 +24,16 @@ main {
     content: close-quote;
     color: rgb(4, 8, 252);
 }
-/*.pclass::after {
+
+.firstline::after {
     content: '';
     display: inline-block;
     position: relative;
     width: 10px;
     height: 10px;
     border-radius: 999px;
-    color: darkviolet;
-
-}*/
+    background-color: red;
+}
 ul li:first-child {
     color: red;
     margin-left: 30px;

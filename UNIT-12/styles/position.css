@@ -1,0 +1,45 @@
+html {
+    box-sizing: border-box;
+  }
+*, *::before, *::after {
+    box-sizing: inherit;
+  }
+body {
+    height: 1080px
+}
+h1 {
+    position: sticky;
+    top: 10px;
+}  
+.potok {
+    display: flex;
+    flex-direction: column;
+}
+li p {
+    background-color: antiquewhite;
+    margin: 120px;
+    padding: 30px;
+    border: 7px solid ;
+}
+.potok__relative {
+    position: relative;
+    top: 100px;
+    left: 70px;
+    right: 100px;
+    bottom: 100px;
+}
+.potok__abs {
+    width: 400px;
+    position: absolute;
+    top: 1000px;
+    left: 100px;
+    right: 100px;
+    
+}
+/*.potok__fixed {
+    position: fixed;
+}*/
+.potok__sticky {
+    position: sticky;
+    bottom: 500px;
+}
