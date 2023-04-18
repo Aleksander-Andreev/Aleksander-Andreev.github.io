@@ -1,0 +1,33 @@
+html {
+    box-sizing: border-box;
+  }
+*, *::before, *::after {
+    box-sizing: inherit;
+  }
+div {
+    background: linear-gradient(90deg, rgba(156,255,18,1) 25%, rgba(0,23,255,1) 100%);
+    margin-left: 30%;
+    margin-top: 1%;
+    height: 300px;
+    width: 300px;
+    box-shadow: inset 20px 20px 10px 10px blue,
+                inset 0px 0px 10px 30px greenyellow,
+                15px 15px 0px 5px rgb(81, 81, 204);
+}
+main p {
+    position: relative;
+    height: auto;
+    width: 500px;
+    padding: 20px;
+    margin-left: 20%;
+    margin-top: 50px;
+    border: 2px solid red;
+    /*font-size: large;*/
+    
+}
+main .lorem {
+    font-family: 'Heebo'; Sans-serif;
+}
+main .hipster {
+  font-family: 'Merriweather-Regular';
+}

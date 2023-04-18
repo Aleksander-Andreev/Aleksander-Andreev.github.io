@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;900&display=swap');
+@font-face {
+    font-family: 'Merriweather-Regular';
+    src: url(/UNIT-14/fonts/Merriweather/Merriweather-Regular.eot);
+    src: url(/UNIT-14/fonts/Merriweather/Merriweather-Regular.eot?#iefix) format('embedded-opentype'),
+         url(/UNIT-14/fonts/Merriweather/Merriweather-Regular.otf) format('otf'),
+         url(/UNIT-14/fonts/Merriweather/Merriweather-Regular.svg#Merriweather-Regular) format('svg'),
+         url(/UNIT-14/fonts/Merriweather/Merriweather-Regular.ttf) format('truetype'),
+         url(/UNIT-14/fonts/Merriweather/Merriweather-Regular.woff) format('woff'),
+         url(/UNIT-14/fonts/Merriweather/Merriweather-Regular.woff2) format('woff2');
+  }
