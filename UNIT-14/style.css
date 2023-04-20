@@ -22,11 +22,11 @@ main p {
     margin-left: 20%;
     margin-top: 50px;
     border: 2px solid red;
-    /*font-size: large;*/
+    font-size: large;
     
 }
 main .lorem {
-    font-family: 'Heebo'; Sans-serif;
+    font-family: 'Heebo', sans-serif;
 }
 main .hipster {
   font-family: 'Merriweather-Regular';
