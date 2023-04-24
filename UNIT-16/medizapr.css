@@ -1,0 +1,39 @@
+html {
+    box-sizing: border-box;
+  }
+*, *::before, *::after {
+    box-sizing: inherit;
+  }
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+img {
+    margin-top: 100px;
+    position: inherit;
+    height: auto;
+    width: 300px;
+}
+h1 {
+  color: darkmagenta;
+  font-size: 1.5rem;
+  width: auto;
+}
+@media (min-width: 768px) {
+  img {
+    width: 400px;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1024px) {
+  img {
+    width: 500px;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+}
