@@ -6,17 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Курсовая работа по Web-разработке</title>
     <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/fonts/font.css">
 </head>
 <body class="main-page">
     <header class="header">
      <div class="container">
-        <nav class="nav">
-            <!--<div class="nav__lang">
+        <nav class="nav" id="nav">
+            <button class="nav__close" id="navClose"></button>
+            <div class="nav__lang">
                 <a class="nav__lang_item" href="#">ru</a>
-                <a class="nav__lang_item" href="#">eng</a>
-            </div>-->
+                <a class="nav__lang_item active" href="#">eng</a>
+            </div>
             <ul class="nav__list">
-                <li class="nav__item">
+                <li class="nav__item active">
                     <a href="#">Home</a>
                 </li>
                 <li class="nav__item">
@@ -38,13 +40,13 @@
     <main class="main">
         <section class="mainfoto">
             <div class="container">
-                <!-- ?<button class="banner__button" id="navOpen"><span></span><span></span><span></span></button> --> 
+                <button class="mainfoto__menu" id="navOpen"><span></span><span></span><span></span></button> 
                 <div class="mainfoto__content">
                     <h2 class="mainfoto_name">Denis<br>Novik</h2>
                     <p class="mainfoto__age">UX | UI designer<br>24 years old, Minsk</p>
                     <div class="mainfoto__lang">
-                        <a class="banner__link" href="#">ru</a>
-                        <a class="banner__link active" href="#">eng</a>
+                        <a class="mainfoto__link" href="#">ru</a>
+                        <a class="mainfoto__link active" href="#">eng</a>
                     </div>
                 </div>
                 <div class="mainfoto__image">
@@ -123,6 +125,6 @@
             <p class="footer__socnetlist">Like me on<br> LinkedIn, Instagram, Behance, Dribble</p>
         </div>
     </footer>
-    <!--<script src="/script/script.js"></script>-->
+    <script src="/script/script.js"></script>
 </body>
 </html>
