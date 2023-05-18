@@ -4,9 +4,127 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main project</title>
+    <title>Курсовая работа по Web-разработке</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/font.css">
 </head>
-<body>
-    Hello world!
+<body class="main-page">
+    <header class="header">
+     <div class="container">
+        <nav class="nav" id="nav">
+            <button class="nav__close" id="navClose"></button>
+            <div class="nav__lang">
+                <a class="nav__lang_item" href="#">ru</a>
+                <a class="nav__lang_item active" href="#">eng</a>
+            </div>
+            <ul class="nav__list">
+                <li class="nav__item active">
+                    <a href="#">Home</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#">About me</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#">Skills</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#">Porfolio</a>
+                <li>
+                <li class="nav__item">
+                    <a href="#">Contacts</a>
+                </li>
+            </ul>
+        </nav>
+     </div>
+    </header>
+    <main class="main">
+        <section class="mainfoto">
+            <div class="container">
+                <button class="mainfoto__menu" id="navOpen"><span></span><span></span><span></span></button> 
+                <div class="mainfoto__content">
+                    <h2 class="mainfoto_name">Denis<br>Novik</h2>
+                    <p class="mainfoto__age">UX | UI designer<br>24 years old, Minsk</p>
+                    <div class="mainfoto__lang">
+                        <a class="mainfoto__link" href="#">ru</a>
+                        <a class="mainfoto__link active" href="#">eng</a>
+                    </div>
+                </div>
+                <div class="mainfoto__image">
+                    <img src="/images/mainfoto-mob.jpg" alt="">
+                    <img src="/images/mainfoto.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="aboutme">
+            <div class="container">
+                <h2 class="aboutme__title">About me</h2>
+                <p class="aboutme__text">Hi, I'm Denis – UX/UI designer from Minsk.<br> I'm interested in design and everything connected with it.</p>
+                <p class="aboutme__text">I'm studying at courses "Web and mobile design interfaces" in IT-Academy.</p>
+                <p class="aboutme__text">Ready to implement excellent projects<br> with wonderful people.</p>
+            </div>
+        </section>
+        <section class="skills">
+         <div class="container">
+            <h2 class="skills__title">Skills</h2>
+            <p class="skills__text">I work in such programs as</p>
+            <ul class="skills__list">
+                <li class="skills__list_item">
+                    <img class="skills__list_img" src="/images/PsGroup.jpg" alt="">
+                 </li>
+                 <li class="skills__list_item">
+                    <img class="skills__list_img" src="/images/AiGroup.jpg" alt="">
+                 </li>
+                 <li class="skills__list_item">
+                    <img class="skills__list_img" src="/images/AeGroup.png" alt="">
+                 </li>
+                 <li class="skills__list_item">
+                    <img class="skills__list_img" src="/images/FigmaGroup.png" alt="">
+                 </li>
+            </ul>
+         </div>
+        </section>
+        <section class="portfolio">
+            <div class="container">
+                <h2 class="portfolio__title">Portfolio</h2>
+                <ul class="portfolio__images">
+                    <li class="portfolio__images_item">
+                        <img class="portfolio__images_img" src="/images/portfolio-1.jpg" alt="">
+                        <a class="portfolio__images_link" href="#">Online fashion store - Homepage</a>
+                    </li>
+                    <li class="portfolio__images_item">
+                        <img class="portfolio__images_img" src="/images/portfolio-2.jpg" alt="">
+                        <a class="portfolio__images_link" href="#">Reebok Store - Concept</a>
+                    </li>
+                    <li class="portfolio__images_item">
+                        <img class="portfolio__images_img" src="/images/portfolio-3.jpg" alt="">
+                        <a class="portfolio__images_link" href="#">Braun Landing Page - Concept</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <h2 class="footer__title">Contacts</h2>
+            <p class="footer__text">Want to know more or just chat?<br> You are welcome!</p>
+            <a class="footer__button" href="mailto:tobitay955@aicogz.com">Send message</a>
+            <ul class="footer__socnet">
+                <li class="footer__socnet_item">
+                    <a href=""><img src="/images/linkedin.svg" alt></a>
+                </li>
+                <li class="footer__socnet_item">
+                    <a href=""><img src="/images/instagram.svg" alt></a>
+                </li>
+                <li class="footer__socnet_item">
+                    <a href=""><img src="/images/behince.svg" alt></a>
+                </li>
+                <li class="footer__socnet_item">
+                    <a href=""><img src="/images/dribble.svg" alt></a>
+                </li>
+            </ul>
+            <p class="footer__socnetlist">Like me on<br> LinkedIn, Instagram, Behance, Dribble</p>
+        </div>
+    </footer>
+    <script src="/script/script.js"></script>
 </body>
 </html>
