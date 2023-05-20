@@ -32,13 +32,7 @@ body {
     font-style: normal;
     color: var(--color-font-primary);
 }
-.header, .footer {
-    flex: none;
-}
 
-.main {
-    flex: 1 0 auto;
-}
 button {
     background-color: transparent;
     border: none;
@@ -58,9 +52,8 @@ img {
     max-width: 943px;
     height: auto;
     margin: 0 auto;
-    padding: 0 10px;
 }
-@media (min-width: 375px) {
+@media (max-width: 375px) {
     .container {
         padding: 0 30px;
     }
@@ -464,7 +457,7 @@ img {
 @media (min-width: 768px) {
     .skills__list {
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
     }
 }
@@ -481,7 +474,7 @@ img {
 }
 @media (min-width: 768px) {
     .skills__list_item {
-        margin: 0 38px 83px;
+        margin: 0 45px 60px;
     }
 }
 .skills__list_img {
@@ -662,17 +655,12 @@ img {
 @media (min-width: 768px) {
     .footer__socnet {
         margin-bottom: 45px;
+        justify-content: center;
+        margin-left: 26px;
     }
 }
 
-/*.footer__socnet li {
-    margin: 0 22px;
-}
-@media (min-width: 375px) {
-    .footer__socnet li {
-        margin: 0 26px;
-    }
-}*/
+
 @media (min-width: 768px) {
     .footer__socnet li {
         margin: 0 30px;
