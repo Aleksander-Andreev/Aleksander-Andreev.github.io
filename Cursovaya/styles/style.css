@@ -277,15 +277,15 @@ img {
         align-items: flex-end;
     }
 }
-.mainfoto__name {
+.container h2 {
     font-weight: 700;
     font-size: 47px;
-    line-height: 59px;
+    line-height: 58px;
     color: var(--color-font-primary-mobile);
     margin-bottom: 18px;
 }
 @media (min-width: 768px) {
-    .mainfoto__name {
+    .container h2 {
         margin-bottom: 0;
     }
 }
