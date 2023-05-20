@@ -19,9 +19,6 @@ html {
     --font-primary: 'Gilroy', sans-serif;
 }
 
-body, html {
-    min-height: 100vh;
-}
 body {
     display: flex;
     flex-direction: column;
@@ -277,7 +274,7 @@ img {
         align-items: flex-end;
     }
 }
-.container h2 {
+.container h1 {
     font-weight: 700;
     font-size: 47px;
     line-height: 58px;
@@ -285,7 +282,7 @@ img {
     margin-bottom: 18px;
 }
 @media (min-width: 768px) {
-    .container h2 {
+    .container h1 {
         margin-bottom: 0;
     }
 }
@@ -410,12 +407,10 @@ img {
         color: var(--color-font-primary);
     }
 }
-.aboutme__text br {
-    display: none;
-}
+
 @media (min-width: 768px) {
     .aboutme__text br {
-        display: block;
+        display: none;
     }
 }
 
@@ -482,7 +477,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 83px;
+    margin-bottom: 81px;
 }
 @media (min-width: 768px) {
     .skills__list_item {
@@ -493,7 +488,6 @@ img {
     display: block;
     height: 206px;
     width: 166px;
-    margin-bottom: 21px;
 }
 @media (min-width: 768px) {
     .skills__list_img {
@@ -658,7 +652,7 @@ img {
 }
 .footer__socnet {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     height: auto;
@@ -671,14 +665,14 @@ img {
     }
 }
 
-.footer__socnet li {
+/*.footer__socnet li {
     margin: 0 22px;
 }
 @media (min-width: 375px) {
     .footer__socnet li {
         margin: 0 26px;
     }
-}
+}*/
 @media (min-width: 768px) {
     .footer__socnet li {
         margin: 0 30px;
